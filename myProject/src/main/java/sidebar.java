@@ -89,7 +89,7 @@ public class sidebar {
         driver.findElement(By.linkText("Email templates")).click();
 
         driver.findElement(By.linkText("Reports")).click();
-        Thread.sleep(3000);
+        // Thread.sleep(3000);
         driver.findElement(By.linkText("Affiliates - users")).click();
         driver.findElement(By.linkText("Affiliates - loans")).click();
         driver.findElement(By.linkText("Affiliates - applications")).click();
